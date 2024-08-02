@@ -1,0 +1,101 @@
+/* RESET */
+html, body{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+/* IMG DE FUNDO */
+.container{
+    width: 100%;
+    height: 100%;
+
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("IMG/BG_GALAXY.jpg"); 
+    background-size: cover;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* FORMULARIO */
+h1{
+    width: 50%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px; 
+    margin: 10px 0;
+    border: 2px transparent;  
+    font-family: 'Times New Roman', Times, serif;   
+}
+
+h1{
+    color: #ffffff;
+    background-image: linear-gradient(45deg,#9a16e7, #555555);
+    transform: scale(1.05);
+    box-shadow: 0px 0px 8px #ffffff
+}
+
+.login{
+    width: 100%;
+    max-width: 400px;
+    height: 300px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #ffffff10;
+    border: 20px solid #ffffff30;
+
+    backdrop-filter: blur(10px);
+}
+
+input{
+    width: 90%;
+    height: 40px;
+    border-radius: 5px;
+    margin: 10px 0;
+    border: 2px solid #ffffff30;
+    background-color: #ffffff10;
+}
+
+input::placeholder{
+    color: #fff;
+}
+
+input[type=submit]{
+    color: #fff;
+    transition: .2s;
+}
+
+input[type=submit]:hover{
+    color: #000;
+    background-image: linear-gradient(45deg,#9a16e7, #555555);
+    transform: scale(1.05);
+    box-shadow: 0px 0px 8px #ffffff;
+}
+
+/* BOTÕES DE REDES SOCIAIS */
+.btn-social button{
+    width: 30px;
+    height: 30px;
+    font-size: 22px;
+    cursor: pointer;
+    transition: .2s;
+    border-radius: 5px;
+    margin: 10px 0;
+    border: 2px solid #ffffff30;
+    background-color: #ffffff10;
+}
+
+.btn-social button:hover{
+    background-image: linear-gradient(45deg,#9a16e7, #555555);
+    transform: scale(1.05);
+    box-shadow: 0px 0px 8px #ffffff;
+ 
+}
